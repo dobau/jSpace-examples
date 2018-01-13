@@ -1,0 +1,15 @@
+allprojects {
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	
+    repositories {
+ 		mavenLocal()
+        mavenCentral()
+    }
+    
+    dependencies {
+        compile 'io.github.pspaces.jspace:common:1.0-SNAPSHOT'
+	}
+	
+	sourceCompatibility = 1.8
+}
