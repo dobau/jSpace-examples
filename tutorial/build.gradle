@@ -10,6 +10,12 @@ allprojects {
     dependencies {
         compile 'io.github.pspaces.jspace:common:1.0-SNAPSHOT'
 	}
+
+	eclipse {
+	    classpath {
+	       downloadSources=true
+	    }
+	}
 	
 	sourceCompatibility = 1.8
 }
